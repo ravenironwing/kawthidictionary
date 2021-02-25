@@ -255,7 +255,7 @@ ipa_display = Text(window, state="disabled", width=20, height=1, bg="white", fon
 ipa_display.grid(row=8, column=0, sticky=E)
 
 Label(window, text="Enter Literal Meaning", font="none 12 bold").grid(row=9,column=0, sticky=W)
-meaning_input = Entry(window, width=50, bg="white")
+meaning_input = Entry(window, width=82, bg="white")
 meaning_input.grid(row=10, column=0, sticky=W)
 
 
